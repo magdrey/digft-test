@@ -1,0 +1,50 @@
+.foot{
+    padding: 5%;
+}
+
+.firstfootlevel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-logosec{ text-align: left;}
+.foot-text{margin-top: 1rem; width: 17rem;}
+
+.soclogo{ margin-top: 1rem;}
+
+.socfa{margin-right: 0.7rem;}
+
+.soclinkend{margin-top: 7px;margin-bottom: 15px; text-decoration: none; color: gray;}
+.contact-us-foot, .office-foot {margin-bottom: 3rem;}
+
+
+.foot-cpcsec{ display: flex; justify-content: space-between;}
+
+.contactsend,.productsend,.companyend{ display: flex; flex-direction: column; margin-left: 2rem;}
+
+.lev2one{  display: flex; }
+.footleveltwo{text-align: left; margin-top: 4rem; color: gray; }
+.scrolltop{
+    cursor: pointer;
+}
+
+
+
+@media only screen and  (max-width:768px) {
+
+    .firstfootlevel,
+    .contactsend,.productsend,.companyend,
+    .lev2one{display: flex; flex-direction: column; margin: 2rem auto;}
+    .foot-logosec{ text-align: center; margin-bottom: 3rem;}
+    .scrolltop{ margin: auto auto; height: 6rem; width: 4rem;}
+    .foot-text{width: 100%;}
+    .foot{padding: 5% 0;}
+    .foot-cpcsec{padding: 0 3%;}
+    .footleveltwo{padding-left: 4%; padding-right: 4%; color: gray;}
+
+
+
+
+
+
+}

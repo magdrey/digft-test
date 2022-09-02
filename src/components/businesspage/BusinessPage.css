@@ -1,0 +1,85 @@
+
+
+
+.bus1level{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin: 4rem 4rem 2rem 4rem;
+}
+.seclevel1{
+    width: 30.5rem;
+}
+.dark-theme .bus2level { background-color: black;}
+.bus2level{
+    margin: 0 auto;
+    padding-top: 4rem;
+    width: 80%;
+}
+.img3,.img2, .img7{ max-width: 100%;}
+.bus3level{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    margin: 2rem 4rem 2rem 4rem;
+}
+.img4{max-width: 100%;}
+.bus4level{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 30px;
+    margin: 4rem 4rem 2rem 4rem;
+}
+
+.firsttext{
+    font-size: 3.8rem;
+    text-align: left;
+    line-height: 4rem;
+}
+.firsttext p{color: lightblue;}
+.subfirsttext{text-align: left; margin: 1rem 0; color: gray; font-weight: bold;}
+
+
+.start-sign{
+    display: flex;
+}
+.startcard, .signcard{
+    display: flex;
+    background-color: blue;
+    border-radius: 5%;
+    width: 8rem;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.startbtn{margin: auto auto;}
+.img9, .img10{width: 15px; height: 20px; margin: auto auto auto 0.5rem;}
+
+.signbtn{ color: gray; margin: auto auto;}
+.signcard{background-color: white; margin-left: 1rem;}
+
+
+
+@media only screen and  (max-width:768px) {
+
+
+    .bus1level, .bus4level, .bus3level{display: flex; flex-direction: column;
+    margin: 3rem 0;}
+    .seclevel1{width: 100%;}
+
+    .firsttext{
+        font-size: 3rem;
+        text-align: left;
+        line-height: 3.1rem;
+    }
+    .busshome{ width: 90%; margin: auto auto;}
+    .bus2level{ width: 95%; margin: 0 auto;
+        padding-top: 1rem;}
+
+
+
+
+
+}

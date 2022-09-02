@@ -1,0 +1,154 @@
+
+.checked-item{
+    text-decoration: line-through;
+}
+
+
+.hero{
+    margin: 0 auto;
+    padding-top: 4rem;
+    width: 90%;
+}
+.heroimg{
+    max-width: 100%;
+}
+.subhero{margin: 0 auto; padding-top: 3rem; width: 80%;}
+.subheroimg{max-width: 100%}
+
+.cardss{
+    width: 60%;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  background-color: aliceblue;
+  padding: 1rem 2rem 2rem 1rem;
+  border-radius: 2%;
+
+}
+.homecardbody{display: flex;}
+.card-cont{
+    
+    padding:0.7rem;
+    border-radius: 5%;
+    width: fit-content;
+
+}
+
+.cardcard{
+    border-radius: 5%;
+    background-color: white;
+    
+    width: 100%;
+    padding: 0.4rem;
+}
+.card-label{ border-radius: 999px; width: fit-content; padding: 0.3rem;
+    margin-left: 0.4rem; font-size: 17px; margin-top: 15px; height: auto;
+    text-align: left; background-color: aliceblue; color: gray;}
+.card-title{ margin-left: 0.4rem; font-size: 16px; color: black;
+}
+.card-img-top{margin-left: 0.3rem;}
+.card-title-pic{ display: flex; margin-top:0.4rem; line-height: 30px;}
+
+.card-content{ text-align: left; font-size: 12px;
+    color: gray; margin-bottom: 20px; margin-top: 10px;
+}
+.card-info{ color: gray; text-align: left; font-size: 13px;}
+.info-icon{  margin-right: 0.5rem; }
+.card-btn{ width: 70%; background-color: blue; color: white; border: none; margin-bottom: 1rem;
+margin-top: 0.6rem; border-radius: 5%; line-height: 30px;}
+
+
+.sidefilter{
+    width: 20%;
+    height: fit-content;
+    margin-right: 4%;
+    background-color: aliceblue;
+    color: black;
+    margin-left: 5%;
+    text-align: left;
+    padding: 2%;
+    border-radius: 5%;
+}
+.fillt{display: flex; justify-content: space-between;}
+.fillt :nth-child(2){color: blue;}
+.form-check-input{margin-right: 5%;}
+
+.hearhappycont{display: flex;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    justify-content: center;
+    font-size: 1.8rem;}
+.hearhappy{
+    text-align: center;
+    width: 65%; 
+}
+.hear-cont-cont{
+    width: 85%; margin-left: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  gap: 15px;
+}
+
+.hear-cont{
+    
+    width: 90%;
+    border-radius: 5%;
+    background-color: white;
+    border: 2px solid aliceblue;
+    padding: 1.1rem;
+}
+.hear-label{line-height: 30px; font-size: 16px; text-align: left; color: gray;}
+.hear-title-pic{ display: flex; margin-top: 1rem;}
+.hear-name-title{margin-left: 1rem;}
+.hear-name{font-size: 16px;}
+.hear-title{color: gray;}
+.latearr{text-align: left; font-size: 40px;
+margin-top: 3rem; margin-bottom: 1rem; margin-left: 5%;}
+
+
+@media only screen and  (max-width:768px) {
+    *{margin-right: 0;}
+    .homehomebody{padding: 0 0;}
+
+    .homecardbody{flex-direction: column;}
+    .sidefilter{width: 90%; margin: 0 auto;}
+    .cardss{width: 90%; display: block; padding: 4rem 0; margin: 0 auto ; margin-top: 3rem;}
+    .hearhappycont{font-size: 0.9rem; line-height: 300%;}
+    .hear-cont-cont{width: 100%; display: block; margin: 0; margin-left: 0;}
+    .hear-cont{width: 17rem; margin: 1rem auto; padding: 3%;}
+    .card-cont{width: 100%;}
+    .cardcard{width: 13rem; padding: 1%; margin: 1rem auto; }
+    .subhero{width: 90%;}
+    .latearr{font-size: 30px;}
+
+}
+
+
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+    .cardss{
+        width: 90%;
+        display: grid;
+      grid-template-columns: auto auto;
+      gap: 15px;
+      background-color: aliceblue;
+      padding: 1rem 2rem 2rem 1rem;
+      border-radius: 2%;
+      margin: 2rem auto;
+    }
+    .card-cont{
+    
+        padding:0.7rem;
+        width: fit-content;
+        margin: auto auto;
+    
+    }
+    .cardcard{width: 15rem; padding: 3%; margin: 1rem auto; }
+
+
+
+
+
+
+
+}
