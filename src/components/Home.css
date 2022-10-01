@@ -17,28 +17,28 @@
 
 .cardss{
     width: 60%;
-    display: grid;
-  grid-template-columns: auto auto auto;
+    display: flex;
   gap: 15px;
-  background-color: aliceblue;
+  
   padding: 1rem 2rem 2rem 1rem;
   border-radius: 2%;
 
 }
 .homecardbody{display: flex;}
+.card-group{ display: block; border-radius: 10px; background-color: aliceblue; width: fit-content; padding: 2%;}
 .card-cont{
-    
     padding:0.7rem;
-    border-radius: 5%;
+    border-radius: 5px;
     width: fit-content;
 
 }
 
 .cardcard{
-    border-radius: 5%;
+    border-radius: 10px;
     background-color: white;
     
-    width: 100%;
+    width: 95%;
+    margin: auto;
     padding: 0.4rem;
 }
 .card-label{ border-radius: 999px; width: fit-content; padding: 0.3rem;
@@ -54,7 +54,7 @@
 }
 .card-info{ color: gray; text-align: left; font-size: 13px;}
 .info-icon{  margin-right: 0.5rem; }
-.card-btn{ width: 70%; background-color: blue; color: white; border: none; margin-bottom: 1rem;
+.card-btn{ width: 70%; background-color: #0078FF; color: white; border: none; margin-bottom: 1rem;
 margin-top: 0.6rem; border-radius: 5%; line-height: 30px;}
 
 
@@ -112,14 +112,15 @@ margin-top: 3rem; margin-bottom: 1rem; margin-left: 5%;}
 
     .homecardbody{flex-direction: column;}
     .sidefilter{width: 90%; margin: 0 auto;}
-    .cardss{width: 90%; display: block; padding: 4rem 0; margin: 0 auto ; margin-top: 3rem;}
+    .cardss{width: 90%; justify-self: center; display: block; padding: 4rem 0; margin: 0 auto ; margin-top: 3rem;}
     .hearhappycont{font-size: 0.9rem; line-height: 300%;}
     .hear-cont-cont{width: 100%; display: block; margin: 0; margin-left: 0;}
     .hear-cont{width: 17rem; margin: 1rem auto; padding: 3%;}
-    .card-cont{width: 100%;}
+    .card-cont{width: auto;}
     .cardcard{width: 13rem; padding: 1%; margin: 1rem auto; }
     .subhero{width: 90%;}
     .latearr{font-size: 30px;}
+    .card-group{ display: block; margin: 1rem auto ; background-color: aliceblue; width: fit-content; padding: 2%;}
 
 }
 
@@ -127,12 +128,11 @@ margin-top: 3rem; margin-bottom: 1rem; margin-left: 5%;}
 @media only screen and (min-width:500px) and (max-width:768px) {
 
     .cardss{
-        width: 90%;
-        display: grid;
-      grid-template-columns: auto auto;
-      gap: 15px;
+    
+      display: flex;
+      
       background-color: aliceblue;
-      padding: 1rem 2rem 2rem 1rem;
+      padding: 1rem 1rem 2rem 1rem;
       border-radius: 2%;
       margin: 2rem auto;
     }
@@ -143,7 +143,7 @@ margin-top: 3rem; margin-bottom: 1rem; margin-left: 5%;}
         margin: auto auto;
     
     }
-    .cardcard{width: 15rem; padding: 3%; margin: 1rem auto; }
+    .cardcard{ width: 100%; padding: 1%; margin: 1rem auto; }
 
 
 
